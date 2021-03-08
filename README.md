@@ -1,6 +1,6 @@
 # 20210308
 week03-1
-``C
+```C
 ///把第一個範例 OpenGL, 拿來改
 ///把第一個 Project變 *粗黑色* Active
 #include <stdio.h>
@@ -12,9 +12,9 @@ int main(int argc, char** argv)
         printf("argv[%d]是:%s\n", i, argv[i]);
     }
 }
-``
+```
 week03-2
-``c
+```c#
 #include <GL/glut.h>
 
 static void display(void)
@@ -44,9 +44,9 @@ int main(int argc, char *argv[])
     ///(5)GLUT主要的迴圈，卡住不要結束
     glutMainLoop();
 }
-``
+```
 week03-3
-``c
+```c#
 #include <GL/glut.h>
 
 void display()
@@ -66,4 +66,4 @@ int main(int argc, char ** argv)///???以前是 int main()
     glutMainLoop();///(5)主要迴圈
 }
 
-``
+```
